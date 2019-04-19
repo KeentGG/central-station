@@ -27,8 +27,15 @@ export default {
   ** Global CSS
   */
   css: [
+    'assets/styles/keen.scss',
+    'assets/styles/style.scss'
   ],
 
+  styleResources: {
+    scss: [
+      'assets/styles/Partials/*.scss'
+    ]
+  },
   /*
   ** Plugins to load before mounting the App
   */
